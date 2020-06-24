@@ -1,0 +1,6 @@
+= simple_form_for @word do |f|
+  = f.input :value, label: 'Value', :autofocus => true
+  %br
+  = f.input :language, label: 'Language', :autofocus => true
+  %br
+  = f.submit 'Word Creation', {:class => 'btn btn-primary'}
